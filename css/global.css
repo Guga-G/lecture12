@@ -1,0 +1,285 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1360px;
+  width: 100%;
+  height: 81px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+header .mycontainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 400px;
+}
+header nav {
+  max-width: 705px;
+  height: 20px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 47px;
+}
+header nav ul a {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 37px;
+  color: #303134;
+  opacity: 1;
+}
+
+.s-1 {
+  background-image: url("../images/Clip.png");
+  max-width: 1360px;
+  width: 100%;
+  height: 569px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.s-1 h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 78px;
+  line-height: 52px;
+  color: white;
+  line-height: 53px;
+}
+.s-1 h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 37px;
+  color: white;
+  text-align: center;
+  line-height: 37px;
+}
+
+.s-2 {
+  margin: 0 auto;
+}
+.s-2 .mys2container {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.s-2 .mys2container .card1 {
+  display: flex;
+  flex-direction: column;
+}
+.s-2 .mys2container .card1 h1 {
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  line-height: 37px;
+}
+.s-2 .mys2container .card1 h2 {
+  font-family: "Raleway", sans-serif;
+  color: #1a1a1b;
+  font-size: 25px;
+  line-height: 37px;
+  margin-bottom: 29px;
+}
+.s-2 .mys2container .card1 h3 {
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  width: 241px;
+  height: 145px;
+}
+.s-2 .mys2container .mycardcontainer {
+  max-width: 875px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  gap: 32px;
+}
+.s-2 .mys2container .mycardcontainer .card2 {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+.s-2 .mys2container .mycardcontainer .card2 img {
+  max-width: 269px;
+  width: 100%;
+  height: 181px;
+  margin-bottom: 22px;
+}
+.s-2 .mys2container .mycardcontainer .card2 h1 {
+  font-family: "Raleway", sans-serif;
+  color: #1a1a1b;
+  font-size: 18px;
+  line-height: 22px;
+  width: 237px;
+  height: 22px;
+  margin-bottom: 8px;
+}
+.s-2 .mys2container .mycardcontainer .card2 h2 {
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  width: 270px;
+  height: 94px;
+}
+
+footer {
+  max-width: 1360px;
+  width: 100%;
+  height: 81px;
+  margin: 0 auto;
+}/*# sourceMappingURL=global.css.map */
